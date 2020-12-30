@@ -12,6 +12,9 @@ function App() {
     database.ref('sample').set(10)
   }, [])
 
+
+function App() {
+
   return (
     <Router>
         <div className="App">
