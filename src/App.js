@@ -8,13 +8,6 @@ import React, { useEffect } from "react";
 
 function App() {
 
-  useEffect(() => {
-    database.ref('sample').set(10)
-  }, [])
-
-
-function App() {
-
   return (
     <Router>
         <div className="App">
